@@ -626,13 +626,14 @@ export type FindUserFromEmailQuery = { __typename?: 'query_root', users: Array<(
     & UserFragment
   )> };
 
-export type UserFragment = { __typename?: 'users', id: any, email: string, password: string };
+export type UserFragment = { __typename?: 'users', id: any, email: string, password: string, role: User_Roles_Enum };
 
 export const UserFragmentDoc = gql`
     fragment User on users {
   id
   email
   password
+  role
 }
     `;
 export const CreateUserDocument = gql`

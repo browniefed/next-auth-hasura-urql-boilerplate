@@ -58,7 +58,6 @@ const options = {
       const tokenContents = {
         id: token.id,
         email: token.email,
-        name: token?.name && `${token.name}`,
         iat: Date.now() / 1000,
         sub: token.id,
         ...getHasuraModel(token),
