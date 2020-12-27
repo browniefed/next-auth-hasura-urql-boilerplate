@@ -28,7 +28,7 @@ module.exports = {
         {
           "http://localhost:8080/v1/graphql": {
             headers: {
-              "x-hasura-admin-secret": "secret",
+              "x-hasura-admin-secret": "adminsecret",
               "x-hasura-role": "admin",
             },
           },
@@ -51,7 +51,7 @@ module.exports = {
         {
           "http://localhost:8080/v1/graphql": {
             headers: {
-              "x-hasura-admin-secret": "secret",
+              "x-hasura-admin-secret": "adminsecret",
               "x-hasura-role": "admin",
             },
           },
@@ -75,7 +75,7 @@ module.exports = {
         {
           "http://localhost:8080/v1/graphql": {
             headers: {
-              "x-hasura-admin-secret": "secret",
+              "x-hasura-admin-secret": "adminsecret",
               "x-hasura-role": "user",
             },
           },

@@ -9,3 +9,9 @@ query FindUserFromEmail($email: String!) {
     ...User
   }
 }
+
+fragment User on users {
+  id
+  email
+  password
+}
