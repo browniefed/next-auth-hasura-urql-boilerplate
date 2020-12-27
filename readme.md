@@ -26,5 +26,3 @@ VERCEL_TOKEN
 ORG_ID
 PROJECT_ID
 ````
-
-Before the project will run you will need to add and generate an `admin_client`.

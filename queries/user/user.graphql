@@ -1,0 +1,6 @@
+query GetSelf {
+  users {
+    id
+    email
+  }
+}

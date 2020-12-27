@@ -1,0 +1,11 @@
+mutation CreateUser($user: users_insert_input!) {
+  insert_users_one(object: $user) {
+    id
+  }
+}
+
+query FindUserFromEmail($email: String!) {
+  users(where: { email: { _eq: $email } }) {
+    ...User
+  }
+}

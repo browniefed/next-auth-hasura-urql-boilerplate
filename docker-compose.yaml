@@ -20,7 +20,7 @@ services:
       HASURA_GRAPHQL_DEV_MODE: "true"
       HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
       HASURA_GRAPHQL_ADMIN_SECRET: adminsecret
-      HASURA_GRAPHQL_JWT_SECRET: '{"type":"HS512", "key": "HL8TDGByks2jGlhSBbenYOL71mA7DInxDqomg61YQq4SVemgLF"}'
+      HASURA_GRAPHQL_JWT_SECRET: '{"type":"HS512", "key": "HL8TDGByks2jGlhSBbeg61YQqnYOL712jGlhSBbemA7DIn1YQqnYOL71mAxDqomg61YQq4SVemgLFGlhSBbenYOL71mA"}'
       HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
       ACTION_BASE_URL: http://host.docker.internal:3000/api
 
