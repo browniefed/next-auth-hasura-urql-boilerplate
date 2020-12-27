@@ -1,5 +1,22 @@
 - table:
     schema: public
+    name: user_roles
+  is_enum: true
+  select_permissions:
+  - role: anonymous
+    permission:
+      columns:
+      - value
+      - description
+      filter: {}
+  - role: user
+    permission:
+      columns:
+      - description
+      - value
+      filter: {}
+- table:
+    schema: public
     name: users
   select_permissions:
   - role: user

@@ -1,15 +1,16 @@
 actions:
-  - name: Register
-    definition:
-      kind: synchronous
-      handler: "{{ACTION_BASE_URL}}/register"
-      forward_client_headers: true
-    permissions:
-      - role: anonymous
-      - role: user
+- name: Register
+  definition:
+    kind: synchronous
+    handler: '{{ACTION_BASE_URL}}/register'
+    forward_client_headers: true
+  permissions:
+  - role: anonymous
+  - role: user
 custom_types:
   enums: []
   input_objects: []
   objects:
-    - name: RegisterOutput
+  - name: RegisterOutput
+  - name: ExampleOutput
   scalars: []

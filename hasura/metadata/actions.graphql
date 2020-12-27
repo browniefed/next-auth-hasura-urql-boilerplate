@@ -1,7 +1,18 @@
 type Mutation {
-  Register(email: String, password: String): RegisterOutput
+  Register (
+    email: String
+    password: String
+  ): RegisterOutput
 }
 
+
+
+
 type RegisterOutput {
-  id: String!
+  id : String!
 }
+
+type ExampleOutput {
+  success : Boolean
+}
+
