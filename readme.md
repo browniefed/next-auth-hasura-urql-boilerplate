@@ -9,7 +9,10 @@ Running Hasura
 ```
 docker-compose up -d
 cd hasura
+hasura migrate apply
+hasura metadata apply
 hasura console
+
 ```
 
 Running the App
