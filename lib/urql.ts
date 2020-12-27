@@ -62,7 +62,7 @@ function addAuthToOperation({ authState, operation }: any) {
 
 export const getClient = () => {
   return createClient({
-    url: process.env.NEXT_PUBLIC_HASURA_API,
+    url: process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT,
     exchanges: [
       dedupExchange,
       cacheExchange,

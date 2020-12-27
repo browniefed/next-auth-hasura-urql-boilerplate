@@ -1,5 +1,5 @@
 {
-  "name": "banner",
+  "name": "next-auth-hasura-urql-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "generate": "graphql-codegen --config codegen.js"
+    "generate": "graphql-codegen --config codegen.js",
+    "generate:watch": "graphql-codegen --config codegen.js --watch"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,7 @@
     "@graphql-codegen/typescript-urql": "^2.0.3",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "graphql": "^15.4.0",
     "next-images": "^1.6.2",
     "typescript": "^4.1.3"
   }
