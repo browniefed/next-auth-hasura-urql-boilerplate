@@ -17,3 +17,14 @@ Running the App
 yarn dev
 ```
 
+Add these to github secrets for the repo for deploying to production
+
+```
+HASURA_ENDPOINT
+HASURA_ADMIN_SECRET
+VERCEL_TOKEN
+ORG_ID
+PROJECT_ID
+````
+
+Before the project will run you will need to add and generate an `admin_client`.
